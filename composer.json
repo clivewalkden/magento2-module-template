@@ -1,0 +1,32 @@
+{
+    "name": "clivewalkden/magento2-module-template",
+    "description": "{DESCRIPTION}",
+    "type": "magento2-module",
+    "homepage": "https://github.com/clivewalkden/magento2-module-template",
+    "authors": [
+        {
+            "name": "Clive Walkden",
+            "email": "clivewalkden@gmail.com",
+            "homepage": "https://clivewalkden.co.uk"
+        }
+    ],
+    "license": "OSL-3.0",
+    "require": {
+        "magento/framework": ">=103.0.3",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CliveWalkden\\Usersnap\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ]
+}
