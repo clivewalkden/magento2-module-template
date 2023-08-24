@@ -1,4 +1,4 @@
-# {NAME} Magento 2 Plugin
+# :package_name Magento 2 Plugin
 
 [![License][ico-license]][link-license]
 [![Total Downloads][ico-downloads]][link-downloads]
