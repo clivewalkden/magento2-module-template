@@ -3,30 +3,31 @@
 [![License][ico-license]][link-license]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Latest Stable Version][ico-version]][link-version]
-[![StyleCI][ico-styleci]][link-styleci]
-[![Quality Score][ico-code-quality]][link-code-quality]
 
-{DESCRIPTION}
+:package_description
+
+<!--delete-->
+This repo can be used to scaffold a Magento 2 Plugin. Follow these steps to get started:
+1. Press the green "Use this template" button at the top of this page
+2. Run "php ./configure.php" to configure the plugin and replace placeholders in the skeleton
+3. Build your module!
+<!--/delete-->
 
 ## Installation
 **Using Composer:**
-2. Install using composer `composer require clivewalkden/magento2-module-template`
-3. Log into the admin and enable the plugin and add the widget id
-4. Clear your Magento cache and you're done
+1. Install using composer `composer require :vendor_slug/:package_slug`
+2. Log into the admin and enable the plugin and add the widget id
+3. Clear your Magento cache and you're done
 
 
 ## Todo
 - Documentation
 - Unit Tests
 
-[ico-license]: https://poser.pugx.org/clivewalkden/magento2-module-template/license
-[ico-downloads]: https://poser.pugx.org/clivewalkden/magento2-module-template/downloads
-[ico-version]: https://poser.pugx.org/clivewalkden/magento2-module-template/v/stable
-[ico-styleci]: https://github.styleci.io/repos/90132910/shield?branch=master
-[ico-code-quality]: https://scrutinizer-ci.com/g/clivewalkden/magento2-module-template/badges/quality-score.png?style=flat-square
+[ico-license]: https://poser.pugx.org/:vendor_slug/:package_slug/license
+[ico-downloads]: https://poser.pugx.org/:vendor_slug/:package_slug/downloads
+[ico-version]: https://poser.pugx.org/:vendor_slug/:package_slug/v/stable
 
 [link-license]: ./LICENSE
-[link-downloads]: https://packagist.org/packages/clivewalkden/magento2-module-template
-[link-version]: https://packagist.org/packages/clivewalkden/magento2-module-template
-[link-styleci]: https://github.styleci.io/repos/90132910?branch=master
-[link-code-quality]: https://scrutinizer-ci.com/g/clivewalkden/
+[link-downloads]: https://packagist.org/packages/:vendor_slug/:package_slug
+[link-version]: https://packagist.org/packages/:vendor_slug/:package_slug

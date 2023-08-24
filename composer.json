@@ -1,13 +1,18 @@
 {
-    "name": "clivewalkden/magento2-module-template",
-    "description": "{DESCRIPTION}",
+    "name": ":vendor_slug/:package_slug",
+    "description": ":package_description",
+    "keywords": [
+        "magento2-module",
+        ":vendor_slug",
+        ":package_slug"
+    ],
     "type": "magento2-module",
-    "homepage": "https://github.com/clivewalkden/magento2-module-template",
+    "homepage": "https://github.com/:vendor_slug/:package_slug",
     "authors": [
         {
-            "name": "Clive Walkden",
-            "email": "clivewalkden@gmail.com",
-            "homepage": "https://clivewalkden.co.uk"
+            "name": ":author_name",
+            "email": "author@domain.com",
+            "homepage": ":author_website",
         }
     ],
     "license": "OSL-3.0",
@@ -20,7 +25,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "CliveWalkden\\Usersnap\\": ""
+            "VendorName\\Skeleton\\": ""
         }
     },
     "repositories": [

@@ -1,6 +1,6 @@
 <?php
 /*
- * Clive Walkden
+ * :author_name
  *
  * NOTICE OF LICENSE
  *
@@ -9,14 +9,14 @@
  * It is also available through the world-wide-web at this URL:
  * http://opensource.org/licenses/osl-3.0.php
  *
- * @category    Clive Walkden
- * @package     CliveWalkden_Template
- * @copyright   Copyright (c) Clive Walkden (https://clivewalkden.co.uk)
+ * @category    :author_name
+ * @package     VendorName_Skeleton
+ * @copyright   Copyright (c) :author_name (:author_website)
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'CliveWalkden_Template',
+    'VendorName_Skeleton',
     __DIR__
 );
